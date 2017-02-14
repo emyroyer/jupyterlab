@@ -1,0 +1,1561 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ObservableUndoableVector | jupyterlab</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">jupyterlab</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_common_undoablevector_.html">&quot;common/undoablevector&quot;</a>
+				</li>
+				<li>
+					<a href="_common_undoablevector_.observableundoablevector.html">ObservableUndoableVector</a>
+				</li>
+			</ul>
+			<h1>Class ObservableUndoableVector&lt;T&gt;</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>A concrete implementation of an observable undoable vector.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-type-parameters">
+				<h3>Type parameters</h3>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>T<span class="tsd-signature-symbol">: </span><a href="../interfaces/_common_undoablevector_.iserializable.html" class="tsd-signature-type">ISerializable</a></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="_common_observablevector_.observablevector.html" class="tsd-signature-type">ObservableVector</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">ObservableUndoableVector</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><span class="tsd-signature-type">IMutableSequence</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li><a href="../interfaces/_common_observablevector_.iobservablevector.html" class="tsd-signature-type">IObservableVector</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+					<li><a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html" class="tsd-signature-type">IObservableUndoableVector</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Modules</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-module tsd-parent-kind-class"><a href="../modules/_common_undoablevector_.observableundoablevector.observablevector.html" class="tsd-kind-icon">Observable<wbr>Vector</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="_common_undoablevector_.observableundoablevector.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_factory" class="tsd-kind-icon">_factory</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_incompound" class="tsd-kind-icon">_in<wbr>Compound</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_index" class="tsd-kind-icon">_index</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_isundoable" class="tsd-kind-icon">_is<wbr>Undoable</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_madecompoundchange" class="tsd-kind-icon">_made<wbr>Compound<wbr>Change</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_stack" class="tsd-kind-icon">_stack</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#back" class="tsd-kind-icon">back</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#changed" class="tsd-kind-icon">changed</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#front" class="tsd-kind-icon">front</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#length" class="tsd-kind-icon">length</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="_common_undoablevector_.observableundoablevector.html#canredo" class="tsd-kind-icon">can<wbr>Redo</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="_common_undoablevector_.observableundoablevector.html#canundo" class="tsd-kind-icon">can<wbr>Undo</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#isdisposed" class="tsd-kind-icon">is<wbr>Disposed</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_copychange" class="tsd-kind-icon">_copy<wbr>Change</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_onvectorchanged" class="tsd-kind-icon">_on<wbr>Vector<wbr>Changed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_redochange" class="tsd-kind-icon">_redo<wbr>Change</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_common_undoablevector_.observableundoablevector.html#_undochange" class="tsd-kind-icon">_undo<wbr>Change</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#at" class="tsd-kind-icon">at</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_common_undoablevector_.observableundoablevector.html#begincompoundoperation" class="tsd-kind-icon">begin<wbr>Compound<wbr>Operation</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#clear" class="tsd-kind-icon">clear</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_common_undoablevector_.observableundoablevector.html#clearundo" class="tsd-kind-icon">clear<wbr>Undo</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="_common_undoablevector_.observableundoablevector.html#dispose" class="tsd-kind-icon">dispose</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_common_undoablevector_.observableundoablevector.html#endcompoundoperation" class="tsd-kind-icon">end<wbr>Compound<wbr>Operation</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#insert" class="tsd-kind-icon">insert</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#insertall" class="tsd-kind-icon">insert<wbr>All</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#iter" class="tsd-kind-icon">iter</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#move" class="tsd-kind-icon">move</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#popback" class="tsd-kind-icon">pop<wbr>Back</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#pushall" class="tsd-kind-icon">push<wbr>All</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#pushback" class="tsd-kind-icon">push<wbr>Back</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_common_undoablevector_.observableundoablevector.html#redo" class="tsd-kind-icon">redo</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#remove" class="tsd-kind-icon">remove</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#removeat" class="tsd-kind-icon">remove<wbr>At</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#removerange" class="tsd-kind-icon">remove<wbr>Range</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#set" class="tsd-kind-icon">set</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_common_undoablevector_.observableundoablevector.html#swap" class="tsd-kind-icon">swap</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_common_undoablevector_.observableundoablevector.html#undo" class="tsd-kind-icon">undo</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Observable<wbr>Undoable<wbr>Vector<span class="tsd-signature-symbol">(</span>factory<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_common_undoablevector_.observableundoablevector.html" class="tsd-signature-type">ObservableUndoableVector</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides Vector.__constructor</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L78">common/undoablevector.ts:78</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Construct a new undoable observable vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>factory: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>value: <span class="tsd-signature-type">JSONObject</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_common_undoablevector_.observableundoablevector.html" class="tsd-signature-type">ObservableUndoableVector</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_factory" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _factory</h3>
+					<div class="tsd-signature tsd-kind-icon">_factory<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span><span class="tsd-signature-symbol"> =&nbsp;null</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L291">common/undoablevector.ts:291</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-siganture">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property tsd-is-not-exported">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>value: <span class="tsd-signature-type">JSONObject</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_incompound" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _in<wbr>Compound</h3>
+					<div class="tsd-signature tsd-kind-icon">_in<wbr>Compound<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L286">common/undoablevector.ts:286</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_index" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _index</h3>
+					<div class="tsd-signature tsd-kind-icon">_index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;-1</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L289">common/undoablevector.ts:289</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_isundoable" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _is<wbr>Undoable</h3>
+					<div class="tsd-signature tsd-kind-icon">_is<wbr>Undoable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L287">common/undoablevector.ts:287</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_madecompoundchange" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _made<wbr>Compound<wbr>Change</h3>
+					<div class="tsd-signature tsd-kind-icon">_made<wbr>Compound<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L288">common/undoablevector.ts:288</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_stack" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _stack</h3>
+					<div class="tsd-signature tsd-kind-icon">_stack<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L290">common/undoablevector.ts:290</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="back" class="tsd-anchor"></a>
+					<h3>back</h3>
+					<div class="tsd-signature tsd-kind-icon">back<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#back">back</a></p>
+						<p>Inherited from Vector.back</p>
+						<ul>
+							<li>Defined in /home/travis/build/jupyterlab/jupyterlab/node_modules/phosphor/lib/collections/vector.d.ts:74</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the value at the back of the vector.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>returns</dt>
+							<dd><p>The value at the back of the vector, or <code>undefined</code> if
+								the vector is empty.</p>
+								<h4 id="notes">Notes</h4>
+								<p>This is a read-only property.</p>
+								<h4 id="complexity">Complexity</h4>
+								<p>Constant.</p>
+								<h4 id="iterator-validity">Iterator Validity</h4>
+								<p>No changes.</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="changed" class="tsd-anchor"></a>
+					<h3>changed</h3>
+					<div class="tsd-signature tsd-kind-icon">changed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ISignal</span><span class="tsd-signature-symbol">&lt;</span><a href="_common_observablevector_.observablevector.html" class="tsd-signature-type">ObservableVector</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#changed">changed</a></p>
+						<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#changed">changed</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L286">common/observablevector.ts:286</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A signal emitted when the vector has changed.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="front" class="tsd-anchor"></a>
+					<h3>front</h3>
+					<div class="tsd-signature tsd-kind-icon">front<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#front">front</a></p>
+						<p>Inherited from Vector.front</p>
+						<ul>
+							<li>Defined in /home/travis/build/jupyterlab/jupyterlab/node_modules/phosphor/lib/collections/vector.d.ts:58</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the value at the front of the vector.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>returns</dt>
+							<dd><p>The value at the front of the vector, or <code>undefined</code> if
+								the vector is empty.</p>
+								<h4 id="notes">Notes</h4>
+								<p>This is a read-only property.</p>
+								<h4 id="complexity">Complexity</h4>
+								<p>Constant.</p>
+								<h4 id="iterator-validity">Iterator Validity</h4>
+								<p>No changes.</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="isempty" class="tsd-anchor"></a>
+					<h3>is<wbr>Empty</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Empty<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#isempty">isEmpty</a></p>
+						<p>Inherited from Vector.isEmpty</p>
+						<ul>
+							<li>Defined in /home/travis/build/jupyterlab/jupyterlab/node_modules/phosphor/lib/collections/vector.d.ts:27</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Test whether the vector is empty.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>returns</dt>
+							<dd><p><code>true</code> if the vector is empty, <code>false</code> otherwise.</p>
+								<h4 id="notes">Notes</h4>
+								<p>This is a read-only property.</p>
+								<h4 id="complexity">Complexity</h4>
+								<p>Constant.</p>
+								<h4 id="iterator-validity">Iterator Validity</h4>
+								<p>No changes.</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="length" class="tsd-anchor"></a>
+					<h3>length</h3>
+					<div class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#length">length</a></p>
+						<p>Inherited from Vector.length</p>
+						<ul>
+							<li>Defined in /home/travis/build/jupyterlab/jupyterlab/node_modules/phosphor/lib/collections/vector.d.ts:42</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the length of the vector.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>returns</dt>
+							<dd><p>The number of values in the vector.</p>
+								<h4 id="notes">Notes</h4>
+								<p>This is a read-only property.</p>
+								<h4 id="complexity">Complexity</h4>
+								<p>Constant.</p>
+								<h4 id="iterator-validity">Iterator Validity</h4>
+								<p>No changes.</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="canredo" class="tsd-anchor"></a>
+					<h3>can<wbr>Redo</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> canRedo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L91">common/undoablevector.ts:91</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Whether the object can redo changes.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="canundo" class="tsd-anchor"></a>
+					<h3>can<wbr>Undo</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> canUndo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L98">common/undoablevector.ts:98</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Whether the object can undo changes.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="isdisposed" class="tsd-anchor"></a>
+					<h3>is<wbr>Disposed</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> isDisposed<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#isdisposed">isDisposed</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L291">common/observablevector.ts:291</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Test whether the vector has been disposed.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_copychange" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _copy<wbr>Change</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_copy<wbr>Change<span class="tsd-signature-symbol">(</span>change<span class="tsd-signature-symbol">: </span><a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L268">common/undoablevector.ts:268</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Copy a change as JSON.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>change: <a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_onvectorchanged" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _on<wbr>Vector<wbr>Changed</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_on<wbr>Vector<wbr>Changed<span class="tsd-signature-symbol">(</span>list<span class="tsd-signature-symbol">: </span><a href="../interfaces/_common_observablevector_.iobservablevector.html" class="tsd-signature-type">IObservableVector</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, change<span class="tsd-signature-symbol">: </span><a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L177">common/undoablevector.ts:177</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Handle a change in the vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>list: <a href="../interfaces/_common_observablevector_.iobservablevector.html" class="tsd-signature-type">IObservableVector</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5>change: <a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_redochange" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _redo<wbr>Change</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_redo<wbr>Change<span class="tsd-signature-symbol">(</span>change<span class="tsd-signature-symbol">: </span><a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L236">common/undoablevector.ts:236</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Redo a change event.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>change: <a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_undochange" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _undo<wbr>Change</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_undo<wbr>Change<span class="tsd-signature-symbol">(</span>change<span class="tsd-signature-symbol">: </span><a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L204">common/undoablevector.ts:204</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Undo a change event.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>change: <a href="../interfaces/_common_observablevector_.observablevector.ichangedargs.html" class="tsd-signature-type">IChangedArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JSONObject</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="at" class="tsd-anchor"></a>
+					<h3>at</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">at<span class="tsd-signature-symbol">(</span>index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#at">at</a></p>
+								<p>Inherited from Vector.at</p>
+								<ul>
+									<li>Defined in /home/travis/build/jupyterlab/jupyterlab/node_modules/phosphor/lib/collections/vector.d.ts:103</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the value at the specified index.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>index: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The positive integer index of interest.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
+							<p>The value at the specified index.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Constant.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>No changes.</p>
+							<h4 id="undefined-behavior">Undefined Behavior</h4>
+							<p>An <code>index</code> which is non-integral or out of range.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="begincompoundoperation" class="tsd-anchor"></a>
+					<h3>begin<wbr>Compound<wbr>Operation</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">begin<wbr>Compound<wbr>Operation<span class="tsd-signature-symbol">(</span>isUndoAble<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#begincompoundoperation">beginCompoundOperation</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L117">common/undoablevector.ts:117</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Begin a compound operation.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> isUndoAble: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Whether the operation is undoable.
+										The default is <code>true</code>.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+					<a name="clear" class="tsd-anchor"></a>
+					<h3>clear</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">clear<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#clear">clear</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#clear">clear</a></p>
+								<p>Overrides Vector.clear</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L478">common/observablevector.ts:478</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Remove all values from the vector.</p>
+								</div>
+								<h4 id="complexity">Complexity</h4>
+								<p>Linear.</p>
+								<h4 id="iterator-validity">Iterator Validity</h4>
+								<p>All current iterators are invalidated.</p>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="clearundo" class="tsd-anchor"></a>
+					<h3>clear<wbr>Undo</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">clear<wbr>Undo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#clearundo">clearUndo</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L169">common/undoablevector.ts:169</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Clear the change stack.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="dispose" class="tsd-anchor"></a>
+					<h3>dispose</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#dispose">dispose</a></p>
+								<p>Overrides <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#dispose">dispose</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L105">common/undoablevector.ts:105</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Dispose of the resources held by the model.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="endcompoundoperation" class="tsd-anchor"></a>
+					<h3>end<wbr>Compound<wbr>Operation</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">end<wbr>Compound<wbr>Operation<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#endcompoundoperation">endCompoundOperation</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L126">common/undoablevector.ts:126</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>End a compound operation.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+					<a name="insert" class="tsd-anchor"></a>
+					<h3>insert</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">insert<span class="tsd-signature-symbol">(</span>index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#insert">insert</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#insert">insert</a></p>
+								<p>Overrides Vector.insert</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L405">common/observablevector.ts:405</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Insert a value into the vector at a specific index.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>index: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The index at which to insert the value.</p>
+									</div>
+								</li>
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The value to set at the specified index.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The new length of the vector.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Linear.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>No changes.</p>
+							<h4 id="notes">Notes</h4>
+							<p>The <code>index</code> will be clamped to the bounds of the vector.</p>
+							<h4 id="undefined-behavior">Undefined Behavior</h4>
+							<p>An <code>index</code> which is non-integral.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="insertall" class="tsd-anchor"></a>
+					<h3>insert<wbr>All</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">insert<wbr>All<span class="tsd-signature-symbol">(</span>index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IterableOrArrayLike</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#insertall">insertAll</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#insertall">insertAll</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L573">common/observablevector.ts:573</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Insert a set of items into the vector at the specified index.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>index: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The index at which to insert the values.</p>
+									</div>
+								</li>
+								<li>
+									<h5>values: <span class="tsd-signature-type">IterableOrArrayLike</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The values to insert at the specified index.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The new length of the vector.</p>
+							<h4 id="complexity-">Complexity.</h4>
+							<p>Linear.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>No changes.</p>
+							<h4 id="notes">Notes</h4>
+							<p>The <code>index</code> will be clamped to the bounds of the vector.</p>
+							<h4 id="undefined-behavior-">Undefined Behavior.</h4>
+							<p>An <code>index</code> which is non-integral.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="iter" class="tsd-anchor"></a>
+					<h3>iter</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">iter<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IIterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#iter">iter</a></p>
+								<p>Inherited from Vector.iter</p>
+								<ul>
+									<li>Defined in /home/travis/build/jupyterlab/jupyterlab/node_modules/phosphor/lib/collections/vector.d.ts:86</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Create an iterator over the values in the vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IIterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A new iterator starting at the front of the vector.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Constant.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>No changes.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="move" class="tsd-anchor"></a>
+					<h3>move</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">move<span class="tsd-signature-symbol">(</span>fromIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, toIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#move">move</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#move">move</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L507">common/observablevector.ts:507</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Move a value from one index to another.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>parm</dt>
+									<dd><p>fromIndex - The index of the element to move.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fromIndex: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>toIndex: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The index to move the element to.</p>
+										<h4 id="complexity">Complexity</h4>
+										<p>Constant.</p>
+										<h4 id="iterator-validity">Iterator Validity</h4>
+										<p>Iterators pointing at the lesser of the <code>fromIndex</code> and the <code>toIndex</code>
+										and beyond are invalidated.</p>
+										<h4 id="undefined-behavior">Undefined Behavior</h4>
+										<p>A <code>fromIndex</code> or a <code>toIndex</code> which is non-integral.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+					<a name="popback" class="tsd-anchor"></a>
+					<h3>pop<wbr>Back</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">pop<wbr>Back<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#popback">popBack</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#popback">popBack</a></p>
+								<p>Overrides Vector.popBack</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L372">common/observablevector.ts:372</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Remove and return the value at the back of the vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
+							<p>The value at the back of the vector, or <code>undefined</code> if
+							the vector is empty.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Constant.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>Iterators pointing at the removed value are invalidated.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="pushall" class="tsd-anchor"></a>
+					<h3>push<wbr>All</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">push<wbr>All<span class="tsd-signature-symbol">(</span>values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IterableOrArrayLike</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#pushall">pushAll</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#pushall">pushAll</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L538">common/observablevector.ts:538</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Push a set of values to the back of the vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>values: <span class="tsd-signature-type">IterableOrArrayLike</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>An iterable or array-like set of values to add.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The new length of the vector.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Linear.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>No changes.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+					<a name="pushback" class="tsd-anchor"></a>
+					<h3>push<wbr>Back</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">push<wbr>Back<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#pushback">pushBack</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#pushback">pushBack</a></p>
+								<p>Overrides Vector.pushBack</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L348">common/observablevector.ts:348</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Add a value to the back of the vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The value to add to the back of the vector.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The new length of the vector.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Constant.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>No changes.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="redo" class="tsd-anchor"></a>
+					<h3>redo</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">redo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#redo">redo</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L153">common/undoablevector.ts:153</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Redo an operation.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+					<a name="remove" class="tsd-anchor"></a>
+					<h3>remove</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#remove">remove</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#remove">remove</a></p>
+								<p>Overrides Vector.remove</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L434">common/observablevector.ts:434</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Remove the first occurrence of a value from the vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The value of interest.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The index of the removed value, or <code>-1</code> if the value
+							is not contained in the vector.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Linear.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>Iterators pointing at the removed value and beyond are invalidated.</p>
+							<h4 id="notes">Notes</h4>
+							<p>Comparison is performed using strict <code>===</code> equality.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+					<a name="removeat" class="tsd-anchor"></a>
+					<h3>remove<wbr>At</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>At<span class="tsd-signature-symbol">(</span>index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#removeat">removeAt</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#removeat">removeAt</a></p>
+								<p>Overrides Vector.removeAt</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L457">common/observablevector.ts:457</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Remove and return the value at a specific index.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>index: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The index of the value of interest.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
+							<p>The value at the specified index, or <code>undefined</code> if the
+							index is out of range.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Constant.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>Iterators pointing at the removed value and beyond are invalidated.</p>
+							<h4 id="undefined-behavior">Undefined Behavior</h4>
+							<p>An <code>index</code> which is non-integral.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="removerange" class="tsd-anchor"></a>
+					<h3>remove<wbr>Range</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>Range<span class="tsd-signature-symbol">(</span>startIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, endIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#removerange">removeRange</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#removerange">removeRange</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L605">common/observablevector.ts:605</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Remove a range of items from the vector.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>startIndex: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The start index of the range to remove (inclusive).</p>
+									</div>
+								</li>
+								<li>
+									<h5>endIndex: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The end index of the range to remove (exclusive).</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The new length of the vector.</p>
+							<h4 id="complexity">Complexity</h4>
+							<p>Linear.</p>
+							<h4 id="iterator-validity">Iterator Validity</h4>
+							<p>Iterators pointing to the first removed value and beyond are invalid.</p>
+							<h4 id="undefined-behavior">Undefined Behavior</h4>
+							<p>A <code>startIndex</code> or <code>endIndex</code> which is non-integral.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+					<a name="set" class="tsd-anchor"></a>
+					<h3>set</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<span class="tsd-signature-symbol">(</span>index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#set">set</a></p>
+								<p>Inherited from <a href="_common_observablevector_.observablevector.html">ObservableVector</a>.<a href="_common_observablevector_.observablevector.html#set">set</a></p>
+								<p>Overrides Vector.set</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/observablevector.ts#L323">common/observablevector.ts:323</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set the value at the specified index.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>index: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The positive integer index of interest.</p>
+									</div>
+								</li>
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The value to set at the specified index.</p>
+										<h4 id="complexity">Complexity</h4>
+										<p>Constant.</p>
+										<h4 id="iterator-validity">Iterator Validity</h4>
+										<p>No changes.</p>
+										<h4 id="undefined-behavior">Undefined Behavior</h4>
+										<p>An <code>index</code> which is non-integral or out of range.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="swap" class="tsd-anchor"></a>
+					<h3>swap</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">swap<span class="tsd-signature-symbol">(</span>other<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Vector</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from Vector.swap</p>
+								<ul>
+									<li>Defined in /home/travis/build/jupyterlab/jupyterlab/node_modules/phosphor/lib/collections/vector.d.ts:228</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Swap the contents of the vector with the contents of another.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>other: <span class="tsd-signature-type">Vector</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The other vector holding the contents to swap.</p>
+										<h4 id="complexity">Complexity</h4>
+										<p>Constant.</p>
+										<h4 id="iterator-validity">Iterator Validity</h4>
+										<p>All current iterators remain valid, but will now point to the
+										contents of the other vector involved in the swap.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="undo" class="tsd-anchor"></a>
+					<h3>undo</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">undo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html">IObservableUndoableVector</a>.<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html#undo">undo</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/d569988/src/common/undoablevector.ts#L137">common/undoablevector.ts:137</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Undo an operation.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/_common_undoablevector_.html">"common/undoablevector"</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-external-module tsd-has-type-parameter">
+						<a href="_common_undoablevector_.observableundoablevector.html" class="tsd-kind-icon">Observable<wbr>Undoable<wbr>Vector</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+								<a href="_common_undoablevector_.observableundoablevector.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_factory" class="tsd-kind-icon">_factory</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_incompound" class="tsd-kind-icon">_in<wbr>Compound</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_index" class="tsd-kind-icon">_index</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_isundoable" class="tsd-kind-icon">_is<wbr>Undoable</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_madecompoundchange" class="tsd-kind-icon">_made<wbr>Compound<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_stack" class="tsd-kind-icon">_stack</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#back" class="tsd-kind-icon">back</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#changed" class="tsd-kind-icon">changed</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#front" class="tsd-kind-icon">front</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#length" class="tsd-kind-icon">length</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="_common_undoablevector_.observableundoablevector.html#canredo" class="tsd-kind-icon">can<wbr>Redo</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="_common_undoablevector_.observableundoablevector.html#canundo" class="tsd-kind-icon">can<wbr>Undo</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#isdisposed" class="tsd-kind-icon">is<wbr>Disposed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_copychange" class="tsd-kind-icon">_copy<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_onvectorchanged" class="tsd-kind-icon">_on<wbr>Vector<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_redochange" class="tsd-kind-icon">_redo<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="_common_undoablevector_.observableundoablevector.html#_undochange" class="tsd-kind-icon">_undo<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#at" class="tsd-kind-icon">at</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_common_undoablevector_.observableundoablevector.html#begincompoundoperation" class="tsd-kind-icon">begin<wbr>Compound<wbr>Operation</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#clear" class="tsd-kind-icon">clear</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_common_undoablevector_.observableundoablevector.html#clearundo" class="tsd-kind-icon">clear<wbr>Undo</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="_common_undoablevector_.observableundoablevector.html#dispose" class="tsd-kind-icon">dispose</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_common_undoablevector_.observableundoablevector.html#endcompoundoperation" class="tsd-kind-icon">end<wbr>Compound<wbr>Operation</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#insert" class="tsd-kind-icon">insert</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#insertall" class="tsd-kind-icon">insert<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#iter" class="tsd-kind-icon">iter</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#move" class="tsd-kind-icon">move</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#popback" class="tsd-kind-icon">pop<wbr>Back</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#pushall" class="tsd-kind-icon">push<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#pushback" class="tsd-kind-icon">push<wbr>Back</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_common_undoablevector_.observableundoablevector.html#redo" class="tsd-kind-icon">redo</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#remove" class="tsd-kind-icon">remove</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#removeat" class="tsd-kind-icon">remove<wbr>At</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#removerange" class="tsd-kind-icon">remove<wbr>Range</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#set" class="tsd-kind-icon">set</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_common_undoablevector_.observableundoablevector.html#swap" class="tsd-kind-icon">swap</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_common_undoablevector_.observableundoablevector.html#undo" class="tsd-kind-icon">undo</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter">
+						<a href="../interfaces/_common_undoablevector_.iobservableundoablevector.html" class="tsd-kind-icon">IObservable<wbr>Undoable<wbr>Vector</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/_common_undoablevector_.iserializable.html" class="tsd-kind-icon">ISerializable</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
